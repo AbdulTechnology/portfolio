@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbdulKalam | Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img src="https://res.cloudinary.com/dlrha8jas/image/upload/v1753808140/1000195992_zys0ag.jpg" alt="Your Profile Photo" class="profile-photo">
+                <a href="#hero" class="logo">AbdulKalam</a>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="navLinks">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#workshops-achievements" onclick="toggleMenu()">Workshops</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="accent-text">AbdulKalam</span></h1>
+                    <p class="tagline">Crafting Code, Building Experiences.</p>
+                    <p>I'm a passionate Software Developer specializing in turning innovative ideas into robust and user-friendly applications. I thrive on solving complex problems and delivering high-quality, scalable solutions.</p>
+                    <a href="#projects" class="btn primary-btn">View My Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>With a strong foundation in full-stack development, I bring a detail-oriented approach to every project. My expertise spans designing efficient databases, developing intuitive user interfaces, deploying scalable cloud solutions. I'm always eager to learn new technologies and embrace best practices to deliver exceptional results.</p>
+                <p>When I'm not coding, you can find me playing cricket, watching movies, tinkering with smart home devices.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2>My Toolkit</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Python</li>
+                            <li>DSA (C++)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul>
+                            <li>React.js</li>
+                            <li>Node.js (Express)</li>
+
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases & Cloud</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Practices</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>RESTful APIs</li>
+                            <li>Figma</li>
+                            <li>PoweBI Microsoft</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>NxtTrendz</h3>
+                        <p>Developed a user-friendly shopping product interface using React.js, offering seamless navigation and an intuitive experience for Browse and adding items.</p>
+                        <a href="https://abdulnxtmart.ccbp.tech" target="_blank" class="btn project-btn">View Live</a>
+
+                    </div>
+                    <div class="project-card">
+                        <h3>WikiPedia Search Application</h3>
+                        <p>A dynamic Wikipedia Search Application built using HTML, CSS, and JavaScript, allowing users to efficiently search for and view Wikipedia articles directly within the interface.</p>
+                        <a href="https://minipedia.ccbp.tech" target="_blank" class="btn project-btn">View Live</a>
+
+                    </div>
+                    <div class="project-card">
+                        <h3>Emoji Game</h3>
+                        <p>Built a captivating Emoji Game using React.js, showcasing strong proficiency in managing and manipulating data with lists to create engaging gameplay.</p>
+                        <a href="https://emojifiggame.ccbp.tech/" target="_blank" class="btn project-btn">View Live</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="workshops-achievements" class="workshops-achievements-section">
+            <div class="container">
+                <h2>Workshops & Achievements</h2>
+
+                <div class="category-grid">
+                    <div class="category-card">
+                        <h3>Workshops Attended</h3>
+                        <ul>
+                            <li>
+                                <h4>Generative AI</h4>
+
+                                <p>Participated in an intensive Generative AI workshop, gaining hands-on experience in developing a functional AI model. This project involved integrating and leveraging over 10 distinct AI tools to achieve generative capabilities, demonstrating practical application of various cutting-edge AI technologies.</p>
+                            </li>
+                            <li>
+                                <h4>Model Context Protocol (MCP)</h4>
+
+                                <p>Model Context Protocol Workshop: Explored and applied various techniques for optimizing Large Language Model (LLM) performance through effective context management and prompt engineering.</p>
+                            </li>
+                            <li>
+                                <h4>UI/UX Designing</h4>
+
+                                <p>Gained practical proficiency in UI/UX design through a dedicated workshop, learning to create user flows, wireframes, mockups, and interactive prototypes for enhanced user engagement.</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="category-card">
+                        <h3>Certifications & Awards</h3>
+                        <ul>
+                            <li>
+                                <h4>Certified HTML,CSS,JavaScript Developer</h4>
+
+                                <p>Possessing a certification in HTML, CSS, and JavaScript, demonstrating expertise in crafting dynamic and engaging web interfaces. Adept at implementing modern web standards and best practices.</p>
+                            </li>
+                            <li>
+                                <h4>Certified Python Programmer</h4>
+
+                                <p> Certified Python Programmer with a proven understanding of Python fundamentals, object-oriented programming, data structures, and algorithms. Adept at developing efficient, readable, and scalable code for diverse applications.</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have a project in mind or just want to chat about tech? Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:kalamwasim850@gmail.com" class="btn primary-btn">Email Me</a>
+                    <a href="https://www.linkedin.com/in/abdul-kalam-s-969729372/" target="_blank" class="btn secondary-btn">LinkedIn</a>
+                    <a href="https://github.com/AbdulTechnology" target="_blank" class="btn secondary-btn">GitHub</a>
+                </div>
+                <p>Contact : +919585407869</p>
+                <p class="small-text">I'm currently open to new opportunities.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AbdulKalam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                const navLinks = document.getElementById('navLinks');
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // Toggle mobile menu
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>

@@ -696,3 +696,26 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+.certification-btn {
+    /* Basic button styles */
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none; /* Remove border */
+    background-color: transparent; /* Make background transparent */
+    padding: 0; /* Remove padding */
+    color: #007bff; /* Set the text color to blue */
+    text-decoration: underline; /* Add underline */
+    
+    /* Hover effect */
+    transition: color 0.3s ease;
+}
+
+.certification-btn:hover {
+    color: #0056b3; /* A slightly darker blue on hover */
+}
